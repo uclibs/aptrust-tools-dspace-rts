@@ -1,4 +1,4 @@
-# AP Trust Tools to Bag DSpace Content
+# Tools to Bag DSpace Content for the APTrust Preservation Repository
 
 These tools are to assist in the bagging and sending of digital content to APTrust. It operates under the premise that you have already established your AWS keys.
 
