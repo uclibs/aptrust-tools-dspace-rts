@@ -7,5 +7,5 @@ These scripts are written for the University of Cincinnati and will need to be c
 In order to push bags to your APTrust receiving bucket, you must install and configure [AWS CLI](https://aws.amazon.com/cli/).
 
 1. Copy DSpace RTS zipped bags into the zips directory.
-2. From the zips directory, run `aptrustBagger.sh` to process the DSpace bags into APTrust bags.
+2. From the zips directory, run `aptrustBagger.sh` to process the zipped DSpace bags into tarred APTrust bags.
 3. When completed, move to the zips directory and run `pushTar.sh` to send the bags to APTrust.
