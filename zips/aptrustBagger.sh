@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#This script is intended to be used on output of the DSpace Replication Task Suite. If you use RTS to export bags, you will have a directory of zip files. Copy this file script into the zip folder and run it. This script uses the Saxon XSLT processor. http://saxon.sourceforge.net/
-
 #Variables -- add paths to tool directory and APTrust bag directory
 tools=../tools
 bagdir=../bags
@@ -66,7 +64,7 @@ if [[ $f == COMMUNITY* ]]; then
 fi
 done
 
-#Remove original RTS produces bags (zips)
+#Remove original DSpac eRTS produced bags (zips)
 for i in *.zip; do
    rm -rf "$i"
 done
