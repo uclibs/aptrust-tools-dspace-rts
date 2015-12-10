@@ -8,4 +8,4 @@ In order to push bags to your APTrust receiving bucket, you must install and con
 
 1. Copy DSpace RTS zipped bags into the zips directory.
 2. From the zips directory, run `aptrustBagger.sh` to process the zipped DSpace bags into tarred APTrust bags.
-3. When completed, move to the zips directory and run `pushTar.sh` to send the bags to APTrust.
+3. When completed, move into to the bags directory and run `pushTar.sh` to send the bags to APTrust.
